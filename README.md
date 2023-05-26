@@ -6,7 +6,7 @@ This is a simple Go web application that generates random good fortunes. Clickin
 
 Before running this application, ensure that you have the following installed on your machine:
 
-- Go (version 1.20 or later)
+- Go (version 1.18)
 
 ## Getting Started
 

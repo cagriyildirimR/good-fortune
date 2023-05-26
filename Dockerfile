@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.18-alpine
 LABEL authors="cagriyildirim"
 
 WORKDIR /usr/src/app
