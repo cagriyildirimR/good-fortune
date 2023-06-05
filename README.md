@@ -2,6 +2,8 @@
 
 This is a simple Go web application that generates random good fortunes. Clicking the "Get Fortune" button will display a new fortune on the page.
 
+You can visit the app via [good-fortune.fly.dev](https://good-fortune.fly.dev)
+
 ## Prerequisites
 
 Before running this application, ensure that you have the following installed on your machine:
