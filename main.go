@@ -137,7 +137,7 @@ func handleFortune(w http.ResponseWriter, r *http.Request) {
 		<!DOCTYPE html>
 		<html>
 		<head>
-			<title>Your Daily Good Fortune</title>
+			<title>Your Daily Fortune</title>
 		</head>
 		<body>
 			<h1>Your Good Fortune</h1>
