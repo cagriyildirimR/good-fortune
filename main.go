@@ -126,7 +126,7 @@ func handleFortune(w http.ResponseWriter, r *http.Request) {
 		rand.Seed(time.Now().UnixNano())
 		randomIndex := rand.Intn(len(fortunes))
 		fortune := fortunes[randomIndex]
-		_, err := fmt.Fprintf(w, "Random Good Fortune: %s", fortune)
+		_, err := fmt.Fprintf(w, "Good Fortune: %s", fortune)
 		if err != nil {
 			return
 		}
@@ -137,12 +137,12 @@ func handleFortune(w http.ResponseWriter, r *http.Request) {
 		<!DOCTYPE html>
 		<html>
 		<head>
-			<title>Random Good Fortunes</title>
+			<title>Your Daily Good Fortune</title>
 		</head>
 		<body>
-			<h1>Random Good Fortunes</h1>
+			<h1>Your Good Fortune</h1>
 			<form method="POST">
-				<button type="submit">Get Fortune</button>
+				<button type="submit">Get Your Fortune</button>
 			</form>
 		</body>
 		</html>
